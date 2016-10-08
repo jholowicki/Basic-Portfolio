@@ -1,0 +1,17 @@
+a:hover {
+	background-image: url("https://aos.iacpublishinglabs.com/question/aq/1400px-788px/pandas-live_64dff22c2fe56e9.jpg?domain=cx.aos.ask.com");
+}
+
+#font {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 300%;
+	font-weight: lighter;
+	font-style: italic;
+	line-height: 150%;
+	text-decoration: underline;
+}
+
+#header {
+	font-family: 'Lora', serif;
+}

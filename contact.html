@@ -1,54 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Joy Holowicki Portfolio</title>
-	<meta charset="UTF-8">
-	<title>Joy Holowicki Portfolio</title>
-	<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">		
+  <title>Joy Holowicki</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<header>
-<div>
-	<section id="header-title">
-		<h1>Joy Holowicki</h1>
-
-
-	</section>
-
-	<section id="menu">
-	<ul>
-		<li class="header-link"><a href="index.html">About</a></li>
-		<li class="header-link"><a href="contact.html">Contact</a></li>
-		<li class="header-link"><a href="portfolio.html">Portfolio</a></li>
-	</ul>
-	</section>
-</div>	
-</header>
-
-<div class="content_container">
-			<div class="left_content_container">
-				<div class="left_content">
-					<h2>Contact</h2>
-					<hr><br>
-						<form action="mailto:joyholowicki@gmail.com" method="post" enctype="text/plain">
-							<p>
-								Name<br>
-								<input class="textbox" type="text" name="name" placeholder=" John Smith">
-								<br><br>
-								Email<br>
-								<input class="textbox" type="text" name="email" placeholder=" example@gmail.com"><br><br>
-								Message<br>
-								<textarea class="textarea" name="message"></textarea><br><br>
-								<input class="css_button" type="submit" value="Submit">
-							</p>
-						</form>
-				</div>
-			</div>
+  <header>
+      <div class="header-container">
+          <h1>Joy Holowicki</h1>
+            <nav>
+              <a href="index.html">About</a> 
+              <a class="link-border" href="portfolio.html">Portfolio</a> 
+              <a href="contact.html">Contact</a> 
+            </nav>
+      </div>
+  </header>
+  <div class="content">
+    <section class="content-section">
+     <h1 class="h1-content">Contact</h1>
+      <form>
+          <div>
+              <label for="name">Name</label>
+              <input type="text" name="user_name" id="name" placeholder="John Smith"/>
+          </div>
+          <div>
+              <label for="mail">E-mail</label>
+              <input type="email" name="user_mail" id="mail" placeholder="example@gmail.com"/>
+          </div>
+          <div>
+              <label for="message">Message</label>
+              <textarea name="user_message" id="message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+    <section class="connect-section">
+      <h2 class="h2-connect">Connect with Me</h2>
+    <a href="https://github.com/jholowicki"><img src="assets/images/github_square_black.svg" alt="Github" class="connect-links"/>
+    <a href="https://www.linkedin.com/in/joyholowicki"><img src="assets/images/linkedin_square_color.svg" alt="LinkedIn" class="connect-links"/>
+    <a href="http://stackoverflow.com/users/6817287/jmh87?tab=profile"><img src="assets/images/stackoverflow_icon.jpg" alt="Stack Overflow" class="connect-links" width="67" height="67" />
+    </section>
+      </div>
+  <footer>
+    <p>&copy; Copyright 2016 Joy Holowicki</p>
+  </footer>
 </body>
-<footer id="footer">
-	<div class="copyright">
-		&copy; Copyright 2016 Joy Holowicki
-	</div>
-</footer>
 </html>

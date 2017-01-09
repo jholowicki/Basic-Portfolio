@@ -8,14 +8,6 @@ A professional portfolio site built with HTML and CSS styling. Demonstrates a ze
 
 ## Download
 
-OS X & Linux:
-
-```sh
-git clone https://github.com/jholowicki/Basic-Portfolio.git
-```
-
-Windows:
-
 ```sh
 git clone https://github.com/jholowicki/Basic-Portfolio.git
 ```
